@@ -4,3 +4,8 @@ if (number % 2 === 0) {
 } else {
     console.log(`${number} is odd.`);
 }
+
+function multiply(x, y) {
+    return x * y;
+}
+console.log(multiply(3, 4));
